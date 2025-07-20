@@ -8,7 +8,7 @@ public class ATMManager {
     private Connection conn;
 
     public ATMManager() throws Exception {
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/atm_system", "root", "shaikawaiz2501");
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/atm_system", "root", "5426");
     }
 
     private String hashPin(String pin) throws NoSuchAlgorithmException {
