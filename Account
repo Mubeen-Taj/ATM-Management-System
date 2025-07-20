@@ -1,0 +1,15 @@
+package bankSystem;
+
+public class Account {
+    private int accountNumber;
+    private String userName;
+    private double balance;
+    private String pinHash;
+
+    public Account(int accountNumber, String userName, double balance, String pinHash) {
+        this.accountNumber = accountNumber;
+        this.userName = userName;
+        this.balance = balance;
+        this.pinHash = pinHash;
+    }
+}
